@@ -6,7 +6,7 @@ To develop a Django application to store and retrieve data from Movies Database 
 
 ## ENTITY RELATIONSHIP DIAGRAM
 
-![img](uml.png)
+![OUTPUT](uml.png)
 
 ## DESIGN STEPS
 
@@ -53,7 +53,7 @@ admin.site.register(Movies, MoviesAdmin)
 
 ## OUTPUT
 
-![img](image.png)
+![OUTPUT](image.png)
 
 
 ## RESULT
