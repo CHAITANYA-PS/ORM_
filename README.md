@@ -26,7 +26,6 @@ Execute Django admin and create details for 10 books
 
 **Models.py**
 ```
-python
 from django.db import models
 from django.contrib import admin
 
@@ -43,7 +42,6 @@ class MoviesAdmin(admin.ModelAdmin):
 
 **Admin.py**
 ```
-python
 from django.contrib import admin
 from .models import Movies, MoviesAdmin
 admin.site.register(Movies, MoviesAdmin)
